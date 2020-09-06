@@ -41,7 +41,7 @@ body::-webkit-scrollbar {
     background: rgb(255, 30, 0);
 }
 .d-block {
-    height: 768px;
+    height: 300px;
 }
 }
 
