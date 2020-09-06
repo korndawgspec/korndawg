@@ -36,9 +36,8 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (width: 1024px) {
-.d-block {
-    height: 1026px;
-    
+.navbar {
+    background: rgb(255, 30, 0);
 }
 }
 
@@ -80,7 +79,7 @@ body::-webkit-scrollbar {
 
 @media screen and (width: 1024px) {
 .d-block {
-    height: 1026px;
+    height: 768px;
 }
 }
 
