@@ -80,7 +80,7 @@ body::-webkit-scrollbar {
 @media screen and (width: 1024px) {
 .d-block {
     display: block;
-    height: 5px;
+    height: 768px;
 }
 }
 
