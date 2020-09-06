@@ -40,6 +40,9 @@ body::-webkit-scrollbar {
     display: block;
     background: rgb(255, 30, 0);
 }
+}
+
+@media screen and (width: 1024px) {
 .d-block {
     height: 5px;
 }
