@@ -221,6 +221,6 @@ body::-webkit-scrollbar {
 
 @media screen and (max-width: 700px) {
     .navbar-brand {
-        color: white;
+        display: block;
     }
 }
