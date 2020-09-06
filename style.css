@@ -40,6 +40,9 @@ body::-webkit-scrollbar {
     display: block;
     background: rgb(255, 30, 0);
 }
+.d-block {
+    height: 768px;
+}
 }
 
 .navbar-toggler {
@@ -76,12 +79,6 @@ body::-webkit-scrollbar {
 
 .d-block {
     height: 1026px;
-}
-
-@media screen and (width: 1024px) {
-.d-block {
-    height: 768px;
-}
 }
 
 #news button {
