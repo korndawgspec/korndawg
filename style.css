@@ -42,12 +42,6 @@ body::-webkit-scrollbar {
 }
 }
 
-@media screen and (width: 1024px) {
-.d-block {
-    height: 5px;
-}
-}
-
 .navbar-toggler {
     border: none!important;
 }
@@ -82,6 +76,13 @@ body::-webkit-scrollbar {
 
 .d-block {
     height: 1026px;
+}
+
+@media screen and (width: 1024px) {
+.d-block {
+    display: block;
+    height: 5px;
+}
 }
 
 #news button {
