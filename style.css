@@ -35,6 +35,12 @@ body::-webkit-scrollbar {
     background: rgba(158, 231, 255, 0.5);
 }
 
+@media screen and (width: 1024px) {
+.navbar {
+    background: rgba(0, 191, 255, 0.5);
+}
+}
+
 .navbar-toggler {
     border: none!important;
 }
