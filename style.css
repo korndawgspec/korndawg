@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
     background: rgba(158, 231, 255, 0.5);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1536px) {
 .navbar {
     display: block;
     background: rgb(255, 30, 0);
