@@ -218,9 +218,3 @@ body::-webkit-scrollbar {
     transition: all 300ms ease-in-out;
     transform: translate(-50%, -50%) scale(1);
 }
-
-@media screen and (width: 414px) {
-    .navbar-brand {
-        color: white;
-    }
-}
