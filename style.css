@@ -61,7 +61,7 @@ body::-webkit-scrollbar {
     font-weight: 600;
 }
 
-#tcmsnews {
+#news {
     padding-top: 50px;
     padding-bottom: 50px;
     color: black;
@@ -71,14 +71,14 @@ body::-webkit-scrollbar {
     height: 1026px;
 }
 
-#tcmsnews button {
+#news button {
     margin-top: 20px;
     margin-bottom: 30px;
     margin-right: 30px;
     background-color: rgb(255, 255, 255);
 }
 
-#tcmsnews button:hover {
+#news button:hover {
     background-color: rgba(158, 236, 255, 0.808);
     transition: 0.7s;
 }
