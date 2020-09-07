@@ -18,6 +18,13 @@ body::-webkit-scrollbar {
     padding-left: 30px;
 }
 
+@media screen and (max-width: 500px) {
+.navbar-brand {
+    padding-left: 0px;
+}
+}
+
+
 .navbar-nav li {
     padding: 0 10px;
 }
@@ -32,7 +39,7 @@ body::-webkit-scrollbar {
 }
 
 .navbar {
-    background: rgba(158, 231, 255, 0.5);
+    background: rgb(146, 201, 253);
 }
 
 .navbar-toggler {
