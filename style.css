@@ -103,6 +103,12 @@ body::-webkit-scrollbar {
     padding-top: 20px;
 }
 
+@media screen and (width: 1024px) {
+.latest-video {
+    height: 850px;
+}
+}
+
 .col-md-5 h4 {
     margin-top: 160px;
     margin-left: 30px;
