@@ -79,7 +79,7 @@ body::-webkit-scrollbar {
 
 @media screen and (width: 1024px) {
 .d-block {
-    height: 850px;
+    height: 85px;
 }
 }
 
@@ -101,12 +101,6 @@ body::-webkit-scrollbar {
 
 .latest-video {
     padding-top: 20px;
-}
-
-@media screen and (width: 1024px) {
-.latest-video {
-    height: 850px;
-}
 }
 
 .col-md-5 h4 {
