@@ -87,7 +87,7 @@ body::-webkit-scrollbar {
 }
 
 .d-block {
-    height: 1024px;
+    height: 768px;
 }
 
 @media screen and (max-width: 767px) {
@@ -123,7 +123,6 @@ body::-webkit-scrollbar {
 
 @media screen and (max-width: 1024px) {
 .col-md-5 h4 {
-    display: block;
     margin-left: 30px;
     margin-top: 130px;
 }
@@ -250,4 +249,9 @@ body::-webkit-scrollbar {
 .popup.active .content {
     transition: all 300ms ease-in-out;
     transform: translate(-50%, -50%) scale(1);
+}
+
+.latest-videos {
+    width: 550px;
+    height: 350px;
 }
