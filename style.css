@@ -50,6 +50,7 @@ body::-webkit-scrollbar {
     color: black!important;
     font-weight: 500;
     font-size: 16px;
+    margin-top: 8px;
 }
 
 .nav-link1 {
@@ -199,56 +200,6 @@ body::-webkit-scrollbar {
     text-align: center;
     padding-top: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.popup .overlay {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0,0,0,0.7);
-    z-index: 1;
-    display: none;
-}
-
-.popup .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: white;
-    width: 450px;
-    height: 220px;
-    z-index: 2;
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.popup .close-btn {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    width: 30px;
-    height: 30px;
-    background: black;
-    color: white;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 26px;
-    text-align: center;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.popup.active .overlay {
-    display: block;
-}
-
-.popup.active .content {
-    transition: all 300ms ease-in-out;
-    transform: translate(-50%, -50%) scale(1);
 }
 
 .latest-videos {
