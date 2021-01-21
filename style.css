@@ -80,7 +80,7 @@ body::-webkit-scrollbar {
     padding-top: 50px;
     padding-bottom: 50px;
     color: black;
-    background-color: rgb(31, 31, 31)
+    background-color: rgb(31, 31, 31);
 }
 
 .d-block {
