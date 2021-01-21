@@ -137,7 +137,7 @@ body::-webkit-scrollbar {
 }
 
 #aboutme {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/Banner-Stock-Photos-by-Megapixl.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/red-wallpaper-1.jpg);
     background-size: cover;
     background-position: center;
     color: #efefef !important;
