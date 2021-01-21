@@ -52,12 +52,6 @@ body::-webkit-scrollbar {
     font-size: 16px;
 }
 
-.nav-link1 {
-    color: black!important;
-    font-weight: 500;
-    font-size: 16px;
-}
-
 @media screen and (max-width: 767px) {
 .nav-link1 {
     font-size: 0px;
