@@ -40,7 +40,7 @@ body::-webkit-scrollbar {
 }
 
 .navbar {
-    background: rgb(146, 201, 253);
+    background: rgba(146, 201, 253, 0.404);
 }
 
 .navbar-toggler {
