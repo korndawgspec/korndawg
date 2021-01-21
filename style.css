@@ -184,7 +184,7 @@ body::-webkit-scrollbar {
 }
 
 .row .col-md-3:hover {
-    background: #0057b4;
+    background: #0033a1;
     cursor: default;
     transition: 0.3s;
 }
