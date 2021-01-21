@@ -47,7 +47,7 @@ body::-webkit-scrollbar {
 }
 
 .nav-link {
-    color: black!important;
+    color: rgb(0, 0, 0)!important;
     font-weight: 500;
     font-size: 16px;
 }
