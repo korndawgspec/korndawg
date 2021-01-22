@@ -4,6 +4,7 @@ body::-webkit-scrollbar {
 
 body {
     cursor: default;
+    background-color:rgb(31, 31, 31)!important;
 }
 
 * {
@@ -83,8 +84,10 @@ body {
 
 @media screen and (max-width: 767px) {
 #slider {
-    height: 0px;
-    padding-top: 0px;
+    height: 0px!important;
+    padding-top: 0px!important;
+    width: 0px!important;
+    background-color:rgb(31, 31, 31)!important;
 }
 }
 
