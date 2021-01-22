@@ -206,6 +206,12 @@ body {
     padding-bottom: 50px;
 }
 
+@media screen and (max-width: 767px) {
+.col-md-3 {
+    margin-right: 70px!important;
+}
+}
+
 #aboutme h1 {
     text-align: center;
     color: #efefef !important;
