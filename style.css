@@ -60,6 +60,12 @@ body {
     backdrop-filter: blur(5px);
 }
 
+@media screen and (max-width: 767px) {
+.navbar {
+    background: rgb(19, 19, 19);
+}
+}
+
 .navbar-toggler {
     border: none!important;
 }
