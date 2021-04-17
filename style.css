@@ -217,7 +217,7 @@ body {
 @media screen and (max-width: 1024px) {
 .col-md-5 h4 {
     margin-left: 30px;
-    margin-top: 100px;
+    margin-top: 100px!important;
     color: white;
 }
 }
