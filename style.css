@@ -135,12 +135,20 @@ body {
 @media screen and (max-width: 767px) {
 #news {
     padding-top: 40px!important;
+    padding-right: 50px;
+}
+}
+
+@media screen and (max-width: 767px) {
+#news2 {
+    padding-top: 40px!important;
+    padding-right: 50px;
 }
 }
 
 #news {
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     color: white;
     background-color: rgb(10, 10, 10);
 }
