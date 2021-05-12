@@ -66,6 +66,14 @@ body {
 }
 }
 
+@media screen and (max-width: 767px) {
+.navbar-toggler {
+    font-size: 0px!important;
+    size: 0px!important;
+    opacity: 0;
+}
+}
+
 .navbar-toggler {
     border: none!important;
 }
