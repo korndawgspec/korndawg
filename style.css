@@ -333,7 +333,7 @@ body {
     background-color: black;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 390px) {
 .products img {
     height: 220px!important;
     width: 350px!important;
