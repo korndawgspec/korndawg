@@ -68,9 +68,7 @@ body {
 
 @media screen and (max-width: 767px) {
 .navbar-toggler {
-    font-size: 0px!important;
-    size: 0px!important;
-    opacity: 0;
+    display: none;
 }
 }
 
@@ -207,14 +205,10 @@ body {
     transition: 0.5s;
 }
 
-.product-title button {
-    margin-left: 30px;
-    color: white;
-    border-color: red;
-}
-
+@media screen and (max-width: 767px) {
 .btn {
-    border-color: red!important;
+    margin-left: 30px!important;
+}
 }
 
 .products img {
@@ -225,19 +219,17 @@ body {
     margin-top: 100px;
     margin-left: 30px;
     color: white;
-    padding-top: 170px;
 }
 
 @media screen and (max-width: 767px) {
-.product-title h4{
-    margin-top: 0px!important;
+.product-title h4 {
+    margin-top: 50px!important;
 }
 }
 
 @media screen and (max-width: 767px) {
 .product-title {
-    margin-right: 30px;
-    margin-top: 0px!important;
+    margin-left: 40px;
     color: white;
     text-align: center;
 }
@@ -290,6 +282,10 @@ body {
     margin-left: 73px;
 }
 
+.col-md-3 p {
+    padding-top: 50px;
+}
+
 .aboutme {
     margin-top: 40px;
 }
@@ -333,7 +329,7 @@ body {
     background-color: black;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 767px) {
 .products img {
     height: 220px!important;
     width: 350px!important;
@@ -369,6 +365,14 @@ body {
 }  
 }
 
+@media screen and (max-width: 767px) {
+.product-description {
+    margin-right: 0px!important;
+}  
+}
+
+@media screen and (max-width: 767px) {
 .col-md-6 h2 {
-    padding-bottom: 100px;
+    padding-bottom: 0px!important;
+}  
 }
