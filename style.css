@@ -85,7 +85,8 @@ body {
 
 @media screen and (max-width: 767px) {
 .nav-link2 {
-    padding-bottom: 10px;
+    padding-bottom: 7px;
+    margin-top: 20px;
 }
 }
 
@@ -383,8 +384,14 @@ body {
     margin: 0;
     padding: 14px;
 }
+}
+
+@media screen and (max-width: 767px) {
+.topnav {
+    display: none;
+}
+}
 
 .topnav input[type=text] {
     border: 1px solid #ccc;
-}
 }
