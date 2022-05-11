@@ -92,7 +92,7 @@ body {
 
 @media screen and (max-width: 767px) {
 #slider {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/38148.jpg);
+    background-image: url(images/38148.jpg)!important;
 }
 }
 
@@ -250,6 +250,12 @@ body {
     background-attachment: fixed;
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+#aboutme {
+    background-image: url(images/38148.jpg);
+}
 }
 
 @media screen and (max-width: 767px) {
